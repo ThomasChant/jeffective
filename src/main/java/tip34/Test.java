@@ -16,10 +16,10 @@ public class Test {
         scanner.close();
 //        test(ExtendedOperation.class, x, y);
 //        test(BasicOperation.class,x,y);
-        List<Operation> a = new ArrayList<>();
-        a.addAll(Arrays.asList(ExtendedOperation.values()));
-        a.addAll(Arrays.asList(BasicOperation.values()));
-        test(a, x, y);
+//        List<Operation> a = new ArrayList<>();
+//        a.addAll(Arrays.asList(ExtendedOperation.values()));
+//        a.addAll(Arrays.asList(BasicOperation.values()));
+//        test(a, x, y);
     }
 //    private static <T extends Enum<T> & Operation> void test(Class<T> opSet,double x,double y){
 //        for(Operation op : opSet.getEnumConstants()){

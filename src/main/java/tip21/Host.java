@@ -20,6 +20,6 @@ public class Host {
       int a =  STR_LEN_CMP.compare("aaa","d");
         String ret = a>0?"长":a==0?"相等":"短";
 //        System.out.println(ret);
-        
+
     }
 }
